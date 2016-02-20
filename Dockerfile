@@ -32,8 +32,8 @@ RUN { \
 
 ENV JAVA_HOME /usr/lib/jvm/java-9-openjdk-amd64
 
-ENV JAVA_VERSION 9~b102
-ENV JAVA_DEBIAN_VERSION 9~b102-1
+ENV JAVA_VERSION 7u95
+ENV JAVA_DEBIAN_VERSION 7u95-2.6.4-1~deb8u1
 
 # see https://bugs.debian.org/775775
 # and https://github.com/docker-library/java/issues/19#issuecomment-70546872
